@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  background: #fff;
+}
+
+#gifGrid {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  image-rendering: auto;
+  will-change: transform;
+}
+
+.empty {
+  display: none;
+}
